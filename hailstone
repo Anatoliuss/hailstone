@@ -1,0 +1,24 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Hailstone(17);
+    }
+
+    public static void Hailstone(int x) {
+         while (x!=1){
+             if (x%2==0){
+                 x=x/2;
+                 System.out.println(x);
+             }else{
+                 x=3*x+1;
+                 System.out.println(x);
+             }
+         }
+    }
+}
+
+
+
